@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>domu</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	  <div class="container" id="topContainer">
+      <!--Navigation bar-->
+		  <nav class="navbar navbar-default">
+
+        <div class="container">
+
+          <div class="navbar-header">
+					  <button class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
+						  <span class="icon-bar"></span>
+						  <span class="icon-bar"></span>
+						  <span class="icon-bar"></span>
+						  <span class="icon-bar"></span>
+					  </button>
+					  <a href="index.html" class="navbar-brand"><h1>domu</h1></a>
+				  </div>
+
+				  <div class="collapse navbar-collapse" id="navigation">
+					  <ul class="nav navbar-nav">
+  						<li><a href="#cozinheiros">Cozinheiros</a></li>
+  						<li><a href="#sobre">Sobre</a></li>
+  						<li><a href="#cadastro">Seja um cozinheiro</a></li>
+  						<li><a href="#contato">Contato</a></li>
+					  </ul>
+				  </div>
+
+        </div>
+		  </nav>
+
+		  <div class="row" >
+  			<div class="col-md-8 col-md-offset-2" id="topRow">
+  				<div id="cadastro">
+  					<h2>Comida de verdade feita por pessoas de verdade.</h2>
+  					<div  class="form-group" id = "orcamento">
+  						<button type="button" class="btn"><a class="white" href="form.php">Escolha um Chefe</a></button>
+  					</div>
+  				</div>
+  			</div>
+		  </div>
+	 </div>
+
+<!--Sobre-->
+
+	<div class="container section-padding">
+		<div class="row" id="sobre">
+
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        <div class="gridFotos text-center">
+          <ul>
+            <li><img src="media/cook1_square.jpg" class="img-responsive img-circle" alt="cook1" /></li>
+            <li><img src="media/cook2_square.jpg" class="img-responsive img-circle" alt="cook1" /></li>
+          </ul>
+          <ul>
+            <li><img src="media/cook3_square.jpg" class="img-responsive img-circle" alt="cook1" /></li>
+            <li><img src="media/cook4_square.jpg" class="img-responsive img-circle" alt="cook1" /></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        <h2 class="text-left">Pratos únicos feitos expecialmente para você, pelos melhores cozinheiros locais.</h2>
+
+  			<p class="lead text-justify"><b>Nós levamos o gostinho de comida caseira para todos.</b> A Domu facilita a experiência e o gosto que só a comida feita em casa proporciona. Nossos cozinheiros apaixonados cozinham os melhores pratos e doces e nós conectamos eles a você. Seja brigradeiros, brownies, comidas fit, vegana ou qualquer outro tipo que você deseja, nossos parceiros fazem.</p>
+      </div>
+
+		</div>
+	</div>
+
+<!--Como funciona-->
+
+	<div class="container contentContainer" id="comoFunciona">
+
+		<div class="row">
+			<h2 class="text-center title">Como funciona?</h2>
+
+			<div class="col-md-4 text-center">
+
+				<img src="icon/iconOrder.png"/></button>
+				<br></br>
+
+				<h3>Faça seu pedido</h3>
+
+				<p class="lead">Entre no nosso site e escolha o que você quer.</p>
+			</div>
+
+			<div class="col-md-4 text-center">
+
+				<img src="icon/delivery.png"/></button>
+				<br></br>
+				<h3>Receba ou busque o pedido</h3>
+
+				<p class="lead">Receba ou busque seu pedido.</p>
+			</div>
+
+			<div class="col-md-4 text-center">
+
+
+				<img src="icon/eat.png"/></button>
+				<br></br>
+
+				<h3>Coma e seja feliz</h3>
+
+				<p class="lead">Se delicie com seu pedido e mate sua fome</p>
+			</div>
+
+		</div>
+
+	</div>
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- jQuery download -->
+    <script src="js/jquery.min.js"></script>
+
+	<script>
+
+		$(".contentContainer").css("min-height", $(window).height());
+
+	</script>
+  </body>
+</html>
