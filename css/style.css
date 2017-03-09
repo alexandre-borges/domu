@@ -14,8 +14,9 @@ h1 {
   font-family: 'Pacifico';
 }
 
-
-
+h2 {
+  font-size: 26px;
+}
 .navbar-brand {
 		padding:0;
 	margin:0;
@@ -27,16 +28,20 @@ h1 {
 }
 
 .section-padding {
-  padding: 90px 0;
+  padding: 50px 0;
 }
 
 #navigation {
 	position:relative;
 	float:right;
+  margin-top: 20px;
+  font-size: 12pt;
+  color: #FF8000;
 }
 
 
 #topContainer {
+ position: relative;
  background-image:url("../media/cover_slider.jpg");
  background-size:cover;
 	 background-repeat:no-repeat;
@@ -49,18 +54,22 @@ h1 {
 }
 
 #topRow {
-	margin-top:300px;
-	margin-bottom:100px;
-	text-align:center;
+
+  text-align:center;
 }
 
-#cadastro {
+#firstRow {
+  margin-top: 200px;
+}
+
+div#cadastro {
 	background-color: rgba(255,255,255,.7);
 	height:50%;
-	width:60%;
+	width:90%;
+  max-width: 600px;
 	border-radius:10px;
 	margin:auto;
-  padding: 10px 50px;
+  padding: 10px 30px;
 
 }
 
@@ -74,8 +83,9 @@ h1 {
 }
 
 #orcamento button {
-	font-size:110%;
+	font-size:20px;
 	padding:3px 10px 3px 10px;
+  margin: auto;
 	background-color:#FF8000;
 }
 
@@ -91,10 +101,6 @@ h1 {
 	width:100%;
 }
 
-#sobre {
-	margin-bottom: 10%;
-}
-
 .marginTop {
 	margin-top:10px;
 }
@@ -107,7 +113,7 @@ h1 {
 
 
 .title {
-	margin-top:100px;
+	margin-top:50px;
 	margin-bottom:50px;
 	font-size:300%;
 }
@@ -191,7 +197,7 @@ clear: both;
 }
 
 footer {
-  background:url("../media/cover_slider.jpg") center center;
+  background: #F8F8F8;
   background-size:cover;
 }
 
