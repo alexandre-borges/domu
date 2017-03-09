@@ -5,188 +5,215 @@
   src: url("../_fonts/bubblegum-sans-regular.otf");
 }
 
+body {
+	position: relative;
+}
 
-	body {
-  	position: relative;
-	}
-
-  .navbar-header h1 {
-    color: #FF8000;
-    font-family: 'Pacifico';
-  }
-
-  
-
-	.navbar-brand {
- 		padding:0;
-		margin:0;
-	}
-
-	.navbar-brand > img {
- 		display: block;
-		height:100%;
-	}
-
-  .section-padding {
-    padding: 90px 0;
-  }
-
-	#navigation {
-		position:relative;
-		float:right;
-	}
+h1 {
+  color: #FF8000;
+  font-family: 'Pacifico';
+}
 
 
-	#topContainer {
-	 background-image:url("../media/cover_slider.jpg");
-	 background-size:cover;
- 	 background-repeat:no-repeat;
-	 opacity: 0.9;
- 	 filter: alpha(opacity=90);
-	 background-color: #004274;
-	 width:100%;
-   height: 800px;
-   background-position: center;
-	}
 
-	#topRow {
-		margin-top:300px;
-		margin-bottom:100px;
-		text-align:center;
-	}
+.navbar-brand {
+		padding:0;
+	margin:0;
+}
 
-	#cadastro {
-		background-color: rgba(255,255,255,.7);
-		height:50%;
-		width:60%;
-		border-radius:10px;
-		margin:auto;
-    padding: 10px 50px;
+.navbar-brand > img {
+		display: block;
+	height:100%;
+}
 
-	}
+.section-padding {
+  padding: 90px 0;
+}
 
-	#orcamento {
-		text-align:center;
-		padding:3px 5px 3px 5px;
-		width:100%;
-		height:70%;
-		margin-bottom:40px;
-		font-size:140%;
-	}
-
-	#orcamento button {
-		font-size:110%;
-		padding:3px 10px 3px 10px;
-		background-color:#FF8000;
-	}
-
-	#orcamento a:hover {
-		color: #FFFFFF;
-   	text-decoration: none;
-	}
+#navigation {
+	position:relative;
+	float:right;
+}
 
 
-	#comoFunciona {
-		background-color:#F3F3F3;
-		margin:0 auto;
-		width:100%;
-	}
+#topContainer {
+ background-image:url("../media/cover_slider.jpg");
+ background-size:cover;
+	 background-repeat:no-repeat;
+ opacity: 0.9;
+	 filter: alpha(opacity=90);
+ background-color: #004274;
+ width:100%;
+ height: 700px;
+ background-position: center;
+}
 
-	#sobre {
-		margin-bottom: 10%;
-	}
+#topRow {
+	margin-top:300px;
+	margin-bottom:100px;
+	text-align:center;
+}
 
-	.marginTop {
-		margin-top:10px;
-	}
+#cadastro {
+	background-color: rgba(255,255,255,.7);
+	height:50%;
+	width:60%;
+	border-radius:10px;
+	margin:auto;
+  padding: 10px 50px;
 
-	.form-control {
-		width:80%;
-		margin-left: auto;
-   	margin-right: auto;
-	}
+}
 
+#orcamento {
+	text-align:center;
+	padding:3px 5px 3px 5px;
+	width:100%;
+	height:70%;
+	margin-bottom:40px;
+	font-size:140%;
+}
 
-	.title {
-		margin-top:100px;
-		margin-bottom:50px;
-		font-size:300%;
-	}
+#orcamento button {
+	font-size:110%;
+	padding:3px 10px 3px 10px;
+	background-color:#FF8000;
+}
 
-	.btn-icon {
-		text-align:center;
-  	color: #333;
- 		background-color: #FFFFFF;
-  	border-color: ##2ECCFA;
-		height:27%;
-		width:23%;
-		padding:20px 0 0 0;
-	}
-
-	.btn-icon img {
-  	width:90%;
-		height:80%;
-	}
-
-	.col-md-4 {
-		margin-bottom:50px;
-	}
+#orcamento a:hover {
+	color: #FFFFFF;
+ 	text-decoration: none;
+}
 
 
-	.white {
-		color:#FFF;
-	}
+#comoFunciona {
+	background-color:#F3F3F3;
+	margin:0 auto;
+	width:100%;
+}
 
-	.glyphicon img {
-		position:relative;
-		margin-left:-40px;
-		margin-top:-15px;
-  	width:20%;
-		height:20%;
-	}
+#sobre {
+	margin-bottom: 10%;
+}
 
-	#fb {
-		color: #FFFFFF;
-   	text-decoration: none;
-	}
+.marginTop {
+	margin-top:10px;
+}
 
-	#fb:hover {
-		color: #FFFFFF;
-   	text-decoration: underline;
-	}
+.form-control {
+	width:80%;
+	margin-left: auto;
+ 	margin-right: auto;
+}
 
-	.btn-parceria {
-		text-align:center;
-  		color: #333;
-		padding:20px 0 0 0;
-		background-color:#004274;
-	}
 
-	#btn-logIn {
-		margin-bottom:-12px;
-	}
+.title {
+	margin-top:100px;
+	margin-bottom:50px;
+	font-size:300%;
+}
 
-	#contato {
-		padding:100px 0 0 0;
-	}
+.btn-icon {
+	text-align:center;
+	color: #333;
+		background-color: #FFFFFF;
+	border-color: ##2ECCFA;
+	height:27%;
+	width:23%;
+	padding:20px 0 0 0;
+}
 
-	#marginBottom {
-		margin-bottom:50px;
-	}
+.btn-icon img {
+	width:90%;
+	height:80%;
+}
+
+.col-md-4 {
+	margin-bottom:50px;
+}
+
+
+.white {
+	color:#FFF;
+}
+
+.glyphicon img {
+	position:relative;
+	margin-left:-40px;
+	margin-top:-15px;
+	width:20%;
+	height:20%;
+}
+
+#fb {
+	color: #FFFFFF;
+ 	text-decoration: none;
+}
+
+#fb:hover {
+	color: #FFFFFF;
+ 	text-decoration: underline;
+}
+
+.btn-parceria {
+	text-align:center;
+	color: #333;
+	padding:20px 0 0 0;
+	background-color:#004274;
+}
+
+#btn-logIn {
+	margin-bottom:-12px;
+}
+
+#contato {
+	padding:100px 0 0 0;
+}
+
+#marginBottom {
+	margin-bottom:50px;
+}
 
 
 .gridFotos {
+clear: both;
+}
+
+.gridFotos ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+
+}
+
+.gridFotos li {
+  display: inline-block;
+  margin: 5px 5px 10px 5px;
+}
+
+footer {
+  background:url("../media/cover_slider.jpg") center center;
+  background-size:cover;
+}
+
+.lockup {
+  padding: 30px;
+}
+
+footer .logo {
+  float: left;
+  margin-right: 30px;
+}
+
+.group:after {
+  content: "";
+  display: table;
   clear: both;
 }
 
-  .gridFotos ul {
-    list-style: none;
-    margin: 0 auto;
-    padding: 0;
+.content-wrap {
+  float: left;
+}
 
-  }
-
-  .gridFotos li {
-    display: inline-block;
-    margin: 5px 5px 10px 5px;
-  }
+.copyright {
+  font-size: 12pt;
+}
