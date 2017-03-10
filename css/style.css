@@ -82,18 +82,17 @@ div#cadastro {
 	font-size:140%;
 }
 
-#orcamento button {
+.botaoAcao {
 	font-size:20px;
 	padding:3px 10px 3px 10px;
   margin: auto;
 	background-color:#FF8000;
 }
 
-#orcamento a:hover {
-	color: #FFFFFF;
+.botaoAcao a:hover {
+  color: #FFFFFF;
  	text-decoration: none;
 }
-
 
 #comoFunciona {
 	background-color:#F3F3F3;

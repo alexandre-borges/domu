@@ -4513,11 +4513,14 @@ position: relative;
 }
 .navbar-default .navbar-nav > li > a {
   color: #FF8000;
+  border-bottom: 3px solid rgba(0,0,0,0);
+  padding: 10px 5px 10px 5px;
+  margin: 0 10px;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: rgba(255, 128, 0, .5);
   background-color: transparent;
+  border-bottom: 3px solid #FF8000;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
