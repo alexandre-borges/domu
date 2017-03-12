@@ -44,10 +44,9 @@ h2 {
  position: relative;
  background-image:url("../media/cover_slider.jpg");
  background-size:cover;
-	 background-repeat:no-repeat;
+ background-repeat:no-repeat;
  opacity: 0.9;
-	 filter: alpha(opacity=90);
- background-color: #004274;
+ filter: alpha(opacity=90);
  width:100%;
  height: 700px;
  background-position: center;
