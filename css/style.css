@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import url('https://fonts.googleapis.com/css?family=Lato:700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 @font-face {
   font-family: 'FonteLogo';
   src: url("../_fonts/bubblegum-sans-regular.otf");
@@ -52,6 +53,8 @@ nav.header {
   font-size: 13pt;
   color: white;
 }
+
+/* Cover */
 
 div#cover {
   margin: 0;
@@ -107,6 +110,12 @@ button.main-button {
   border-radius: 50px;
 }
 
+button.section-button {
+  margin: 10px auto;
+  background-color: rgba(255, 128, 0, 1);
+}
+
+
 @media screen and (max-width: 544px) {
   button.main-button {
     display: block;
@@ -142,9 +151,50 @@ button.main-button a:hover {
   text-decoration: none;
 }
 
-/*Grid de Fotos redondas*/
+/* Sections */
+
+div.section {
+  margin: 30px 0;
+  width: 100%;
+  padding: 50px 6vw;
+}
+
+div.half-section {
+  padding: 0;
+}
+
+div.section h2 {
+ font-family: 'Lato', sans-serif;
+ font-size: 40px;
+ margin: 0 0 30px;
+}
+div.section p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin: 0 0px 35px;
+  line-height: 160%
+}
+
+div.even-section {
+  background-color: #eee;
+}
+
+/* Como funciona */
+
+div.feature-box {
+  margin: 10px 10px;
+  padding: 20px 25px;
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  height: 400px;
+  max-width: 335px;
+}
+
+/* Grid de Fotos redondas */
 .gridFotos {
 clear: both;
+margin-bottom: 20px;
 }
 
 .gridFotos ul {
