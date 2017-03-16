@@ -4254,7 +4254,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-fixed-top,
 .navbar-fixed-bottom {
-  position: fixed;
+  position: relative;
   right: 0;
   left: 0;
   z-index: 1030;
@@ -4512,7 +4512,7 @@ position: relative;
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #FF8000;
+  color: white;
   border-bottom: 3px solid rgba(0,0,0,0);
   padding: 10px 5px 10px 5px;
   margin: 0 10px;
@@ -4520,7 +4520,7 @@ position: relative;
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   background-color: transparent;
-  border-bottom: 3px solid #FF8000;
+  border-bottom: 3px solid white;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,

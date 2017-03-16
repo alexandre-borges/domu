@@ -10,7 +10,6 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" />
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -19,12 +18,10 @@
     <![endif]-->
   </head>
   <body>
-	  <header class="container" id="topContainer">
+	  <header>
       <!--Navigation bar-->
-		  <nav class="navbar navbar-default">
-
+		  <nav class="navbar navbar-default header navbar-fixed-top">
         <div class="container">
-
           <div class="navbar-header">
 					  <button class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
 						  <span class="icon-bar"></span>
@@ -43,25 +40,24 @@
   						<li><a href="#contato">Contato</a></li>
 					  </ul>
 				  </div>
-
         </div>
 		  </nav>
-
-		  <div class="row" id="firstRow">
-  			<div class="col-md-8 col-md-offset-2" id="topRow">
-  				<div id="cadastro">
-  					<h2>Comida de verdade feita por pessoas de verdade</h2>
-  					<div  class="form-group" id = "orcamento">
-  						<button type="button" class="btn botaoAcao"><a class="white" href="form.php">Escolha um Chefe</a></button>
-  					</div>
-  				</div>
-  			</div>
-		  </div>
-	  </header>
+    </header>
+    <div class="container" id="cover">
+			<div id="cadastro">
+        <div id="mid-text">
+  				<h2>Comida de verdade. Entregue em casa</h2>
+          <div id="mid-buttons">
+            <button type="button" class="btn main-button"><a class="white" href="#">Faça seu pedido</a></button>
+            <button type="button" class="btn main-button second-button"><a class="white" href="#">Seja um chef</a></button>
+          </div>
+        </div>
+			</div>
+    </div>
 <!--Sobre-->
 
 	<div class="container section-padding">
-		<div class="row" id="sobre">
+		<div class="row">
 
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
         <div class="gridFotos text-center">
@@ -77,11 +73,9 @@
       </div>
 
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-        <h2 class="text-left">Pratos únicos feitos expecialmente para você, pelos melhores cozinheiros locais.</h2>
-
-  			<p class="lead text-justify"><b>Nós levamos o gostinho de comida caseira para todos.</b> A Domu facilita a experiência e o gosto que só a comida feita em casa proporciona. Nossos cozinheiros apaixonados cozinham os melhores pratos e doces e nós conectamos eles a você. Seja brigradeiros, brownies, comidas fit, vegana ou qualquer outro tipo que você deseja, nossos parceiros fazem.</p>
-
-        <button type="button" class="btn botaoAcao"><a class="white" href="form.php">Seja um Chefe</a></button>
+        <h2>Pratos únicos feitos expecialmente para você, pelos melhores cozinheiros locais.</h2>
+  			<p><b>Nós levamos o gostinho de comida caseira para todos.</b> A Domu facilita a experiência e o gosto que só a comida feita em casa proporciona. Nossos cozinheiros apaixonados cozinham os melhores pratos e doces e nós conectamos eles a você. Seja brigradeiros, brownies, comidas fit, vegana ou qualquer outro tipo que você deseja, nossos parceiros fazem.</p>
+        <button type="button" class="btn botaoAcao"><a class="white" href="#">Seja um Chefe</a></button>
       </div>
 
 		</div>
@@ -89,43 +83,32 @@
 
 <!--Como funciona-->
 
-	<div class="container section-padding" id="comoFunciona">
-
+	<div class="container section-padding">
+		<h2>Como funciona?</h2>
 		<div class="row">
-			<h2 class="text-center title">Como funciona?</h2>
-
 			<div class="col-md-4 text-center">
-
-				<img src="icon/iconOrder.png"/></button>
-				<br></br>
-
+				<img src="icon/online-ordering.png"/>
 				<h3>Faça seu pedido</h3>
-
-				<p class="lead">Entre no nosso site e escolha o que você quer.</p>
+				<p>Et pumpkin spice, variety redeye, skinny cream americano affogato viennese aromatic. Carajillo cinnamon, eu wings body, macchiato, qui grounds ut coffee steamed crema.</p>
 			</div>
 
 			<div class="col-md-4 text-center">
-
-				<img src="icon/delivery.png"/></button>
-				<br></br>
+				<img src="icon/delivery-guy.png"/>
 				<h3>Receba ou busque o pedido</h3>
-
-				<p class="lead">Receba ou busque seu pedido.</p>
+				<p>Id breve, latte viennese iced eu beans aftertaste. Cup, robusta, caffeine chicory coffee cappuccino, robusta as espresso instant seasonal.</p>
 			</div>
 
 			<div class="col-md-4 text-center">
-
-
-				<img src="icon/eat.png"/></button>
-				<br></br>
-
+				<img src="icon/candy.png"/>
 				<h3>Coma e seja feliz</h3>
-
-				<p class="lead">Se delicie com seu pedido e mate sua fome</p>
+				<p>Mug, crema cup grinder cup espresso caffeine. Aftertaste caffeine chicory instant, as and rich arabica cinnamon.</p>
 			</div>
 
 		</div>
 	</div>
+
+  <!--Footer-->
+
   <footer>
     <div class="lockup group">
       <a href="index.html" class="logo"><h1>domu</h1></a>
